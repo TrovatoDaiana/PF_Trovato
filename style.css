@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(205, 185, 244);
+}
+nav{
+    background-color: rgb(182, 123, 237);
+}
+a{
+    color: black;
+}
+/* index */
+.principal{
+    background-image: url(multimedia/baby-feet-g4f0d976e9_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+/* servicios */
+.h1__servicios{
+    color: rgba(106, 4, 106, 0.988);
+    text-decoration: double underline;
+}
+/* conecta */
+.h1__conecta,
+.h1__servicios{
+    color: rgba(106, 4, 106, 0.988);
+    text-align: center;
+    text-decoration: underline double;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+/* Animacion */
+.favicon{
+    animation-name: favicon;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes favicon {
+    25%{
+        border-radius: 15%;
+    }
+    50%{
+        border-radius: 25%;
+    }
+    75%{
+        border-radius: 35%;
+    }
+    100%{
+        border-radius: 45%;
+    }
+}
+/* transform */
+.button:hover{
+    transform: scale(1.1) translateY(-20px);
+}
+.h:hover{
+    transform: scale(1.1) translateY(-10px);
+}
+.p:hover{
+    transform: scale(1.05);
+}
+.staff:hover{
+    transform: scale(1.05);
+}
