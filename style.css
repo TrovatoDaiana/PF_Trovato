@@ -35,6 +35,114 @@ a{
     font-weight: bolder;
     font-size: 50px;
 }
+/* galeria cartas */
+.galeria__body{
+    background-image: url(multimedia/fondoForm.jpg.jpg);
+}
+.contenedorGaleria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.carta{
+    width: 30%;
+    background-color: rgb(163, 123, 198);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 10px;
+    height: 0 auto;
+}
+.carta__imagen{
+    width: 100%;
+}
+.carta__titulo{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: lighter;
+    text-align: center;
+}
+.carta__imagen,
+.carta__titulo{
+    margin-bottom: 10px;
+}
+.carta__imagen.puerpera{
+    height: 70%;
+}
+/* institucional */
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+        "caja1 caja2"
+        "caja3 caja4"
+        "caja5 caja6"
+        "caja7 caja8"
+        "caja9 caja10"
+        "caja11 caja12"
+        "caja13 caja14"
+}
+.caja1{
+    grid-area: caja1;
+}
+.caja2{
+    grid-area: caja2;
+}
+.caja3{
+    grid-area: caja3;
+}
+.caja4{
+    grid-area: caja4;
+}
+.caja5{
+    grid-area: caja5;
+}
+.caja6{
+    grid-area: caja6;
+}
+.caja7{
+    grid-area: caja7;
+}
+.caja8{
+    grid-area: caja8;
+}
+.caja9{
+    grid-area: caja9;
+}
+.caja10{
+    grid-area: caja10;
+}
+.caja11{
+    grid-area: caja11;
+}
+.caja12{
+    grid-area: caja12;
+}
+.caja13{
+    grid-area: caja13;
+}
+.caja14{
+    grid-area: caja14;
+}
+.contenedor__caja--texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.contenedor__caja--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+}
 /* Animacion */
 .favicon{
     animation-name: favicon;
