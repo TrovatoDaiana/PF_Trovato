@@ -27,10 +27,11 @@ a{
 }
 /* conecta */
 .h1__conecta,
-.h1__servicios{
+.h1__servicios,
+.h1__galeria,
+.h2__galeria{
     color: rgba(106, 4, 106, 0.988);
     text-align: center;
-    text-decoration: underline double;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 50px;
