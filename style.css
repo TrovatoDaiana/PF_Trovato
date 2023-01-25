@@ -26,7 +26,12 @@ a{
     text-decoration: double underline;
 }
 /* conecta */
+.container__conecta{
+    padding: 20px;
+}
+/* h1 general */
 .h1__conecta,
+.h1__servicios,
 .h1__galeria,
 .h2__galeria{
     color: rgba(106, 4, 106, 0.988);
@@ -38,14 +43,14 @@ a{
 /* servicios */
 .card-group{
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex: 1;
 }
-/* galeria cartas */
-.galeria__body{
-    background-image: url(multimedia/fondoForm.jpg.jpg);
+.h1__servicios{
+    text-decoration: none;
 }
+/* galeria cartas */
 .contenedorGaleria{
     display: flex;
     flex-flow: row wrap;
@@ -170,6 +175,10 @@ a{
         border-radius: 45%;
     }
 }
+/* transition */
+.button{    
+    transition: transform 1s ease-in-out, translateY 1s ease-in-out;
+}
 /* transform */
 .button:hover{
     transform: scale(1.1) translateY(-20px);
@@ -182,9 +191,6 @@ a{
 }
 .staff:hover{
     transform: scale(1.05);
-}
-.carta:hover{
-    transform: scale(1.1);
 }
 @media screen and (max-width: 480px) {
     .contenedor{
