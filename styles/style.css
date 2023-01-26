@@ -197,5 +197,10 @@ a{
     .carta{
         width: 100%;
     }
-    
+}
+@media screen and (max-width: 768px) {
+    .card-group{
+        display: flex;
+        flex-direction: column;
+    }
 }
