@@ -1,0 +1,76 @@
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+        "caja1 caja2"
+        "caja3 caja4"
+        "caja5 caja6"
+        "caja7 caja8"
+        "caja9 caja10"
+        "caja11 caja12"
+        "caja13 caja14";
+
+        .contenedor__caja{
+            .caja1{
+                grid-area: caja1;
+            }
+            .caja2{
+                grid-area: caja2;
+            }
+            .caja3{
+                grid-area: caja3;
+            }
+            .caja4{
+                grid-area: caja4;
+            }
+            .caja5{
+                grid-area: caja5;
+            }
+            .caja6{
+                grid-area: caja6;
+            }
+            .caja7{
+                grid-area: caja7;
+            }
+            .caja8{
+                grid-area: caja8;
+            }
+            .caja9{
+                grid-area: caja9;
+            }
+            .caja10{
+                grid-area: caja10;
+            }
+            .caja11{
+                grid-area: caja11;
+            }
+            .caja12{
+                grid-area: caja12;
+            }
+            .caja13{
+                grid-area: caja13;
+            }
+            .caja14{
+                grid-area: caja14;
+            }
+
+            &--texto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                padding: 20px;
+            }
+
+            &--img{
+                max-height: 100vh;
+                border-radius: 10px;
+                margin: 20px;
+            }
+        }
+}
+

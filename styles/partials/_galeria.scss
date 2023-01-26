@@ -1,0 +1,41 @@
+.contenedorGaleria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+    .h1__galeria{
+        color: $colorH1y2;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .carta{
+        width: 30%;
+        background-color: $colorBody;
+        padding: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-inline: 1.5%;
+        margin-block: 10px;
+        height: 0 auto;
+
+        .carta__imagen{
+            width: 100%;
+            margin-bottom: 10px;
+
+            &.puerpera{
+                height: 70%;
+            }
+        }
+
+        .carta__titulo{
+            font-size: 25px;
+            font-family: cursive;
+            font-weight: lighter;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+}

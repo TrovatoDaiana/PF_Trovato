@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  background-image: url(../multimedia/baby-feet-g4f0d976e9_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.container__conecta {
+  padding: 20px;
+}
+.container__conecta .h1__conecta {
+  color: rgba(106, 4, 106, 0.988);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.card-group {
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  flex: 1;
+}
+.card-group .h1__servicios {
+  color: rgba(106, 4, 106, 0.988);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.contenedorGaleria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.contenedorGaleria .h1__galeria {
+  color: rgba(106, 4, 106, 0.988);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.contenedorGaleria .carta {
+  width: 30%;
+  background-color: rgb(205, 185, 244);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-inline: 1.5%;
+  margin-block: 10px;
+  height: 0 auto;
+}
+.contenedorGaleria .carta .carta__imagen {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contenedorGaleria .carta .carta__imagen.puerpera {
+  height: 70%;
+}
+.contenedorGaleria .carta .carta__titulo {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja6" "caja7 caja8" "caja9 caja10" "caja11 caja12" "caja13 caja14";
+}
+.contenedor .contenedor__caja .caja1 {
+  grid-area: caja1;
+}
+.contenedor .contenedor__caja .caja2 {
+  grid-area: caja2;
+}
+.contenedor .contenedor__caja .caja3 {
+  grid-area: caja3;
+}
+.contenedor .contenedor__caja .caja4 {
+  grid-area: caja4;
+}
+.contenedor .contenedor__caja .caja5 {
+  grid-area: caja5;
+}
+.contenedor .contenedor__caja .caja6 {
+  grid-area: caja6;
+}
+.contenedor .contenedor__caja .caja7 {
+  grid-area: caja7;
+}
+.contenedor .contenedor__caja .caja8 {
+  grid-area: caja8;
+}
+.contenedor .contenedor__caja .caja9 {
+  grid-area: caja9;
+}
+.contenedor .contenedor__caja .caja10 {
+  grid-area: caja10;
+}
+.contenedor .contenedor__caja .caja11 {
+  grid-area: caja11;
+}
+.contenedor .contenedor__caja .caja12 {
+  grid-area: caja12;
+}
+.contenedor .contenedor__caja .caja13 {
+  grid-area: caja13;
+}
+.contenedor .contenedor__caja .caja14 {
+  grid-area: caja14;
+}
+.contenedor .contenedor__caja--texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px;
+}
+.contenedor .contenedor__caja--img {
+  max-height: 100vh;
+  border-radius: 10px;
+  margin: 20px;
+}/*# sourceMappingURL=estilos.css.map */
