@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .contenedor{
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contenedorGaleria{
+        display: flex;
+        flex-direction: column;
+    }
+    .carta{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
