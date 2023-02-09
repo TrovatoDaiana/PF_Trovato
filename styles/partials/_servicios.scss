@@ -1,3 +1,10 @@
+.body,
+.footer{
+    background-color: $colorNavbarFooter;
+}
+.main{
+    background-color: $colorBody;
+}
 .card-group{
     gap: 10px;
     padding: 20px;
